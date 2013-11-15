@@ -8,6 +8,20 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+ *= require twitter/bootstrap
  *= require_self
  *= require_tree .
  */
+
+ body { padding-top: 70px; }
+
+.jumbotron {
+  position: relative;
+  background: url(https://www.bloc.io/assets/landing/large-female.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 30px 30px 40px 30px;
+  text-shadow: 1px 1px 0px #666;
+  text-align: left;
+  color: #fff;
+}
